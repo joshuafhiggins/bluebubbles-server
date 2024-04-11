@@ -170,7 +170,7 @@ type MessageResponse = {
     groupTitle: string | null;
     isExpired: boolean;
     associatedMessageGuid: string | null;
-    associatedMessageType: number | null;
+    associatedMessageType: string | null;
     expressiveSendStyleId: string | null;
     timeExpressiveSendStyleId: number | null;
 };
